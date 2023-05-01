@@ -364,7 +364,7 @@ struct DAT
 		DisplayInfo("[" + n + "] Creating a temp file.", false);
 
 		std::ofstream tempWrite(currentPath + "\\" + n + ".temp", std::ios::binary);
-		size_t archiveIntro = (num_folders * 4 + num_folders * 128) + (num_files * 8 + num_files * 128 + num_files * 8) + 8;
+		size_t archiveIntro = (num_folders * 4 + num_folders * 128) + (num_files * 4 * 4 + num_files * 128 + num_files * 8) + 8;
 		size_t temp = 0;
 
 		for (int i = 0; i < num_files; i++)

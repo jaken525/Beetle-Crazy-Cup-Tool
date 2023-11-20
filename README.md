@@ -1,4 +1,4 @@
-# Beetle-Crazy-Cup-Tool
+# Beetle Crazy Cup Tool
 With this program, you can work with game files. Useful for modding.
 The latest version of this edition v1.3.1. Is not supported.
 
